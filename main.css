@@ -1,0 +1,80 @@
+h1{
+    color: #550C18;/* font colour of heading */
+    background-color: #F59CA9;/* background colour around the heading only */
+    margin-top: 1.5cm; /* the margin on the top of the heading */
+    margin-left: 4cm;/* margin on the left of the heading */
+    margin-right: 4cm;/* margin on the right of the heading */ 
+    text-align: center; /* the alignment of the text withing the box of colour around the heading */
+    font-size: 60px; /* the font size of the heading is 60 px */
+    padding-top: 10px;/* the padding on top of the heading is 10px */
+    padding-right: 20px;/* the padding on the right of the heading is 20px */
+    padding-left: 20px; /* the padding on the left of the heading is 20px */
+    padding-bottom: 10px; /* the padding on the bottom of the heading is 10px */
+    border-radius: 30px; /* the border of the heading box is rounded */
+}
+body{
+    border: #c0876e; /* the border of the page is brown and spotted */
+    background-color: #f3dfa2; /* the background colour of the page is #f3dfa2 */
+    margin: 0.5cm; /* the margins of the body is 0.5 cm away from the edge of the page */
+    border-style: dotted; /* the border is dotted */
+    border-width: 0.5cm; /* the width of the border is 0.5 cm thick */
+}
+img{
+    border-radius: 1.5cm; /* image have rounded edges */
+    margin-left: 50px;/* image have margins of 50px around the whole thing */
+    align-items: center;/* the alignment of the image is centre */
+}
+span{
+    background-color: #8C2F39;/* the background colour of the buttons are red */
+    border-radius: 2cm; /* the borders are rounded */
+    width: 330; /* the width of the button is 330px */
+    margin-left: 50px; /* the margins on the left of the button is 1000px *//* the margins on the left of the button is 50px */
+    text-align: center; /* the text alignment is in the centre */
+    font-size: 20px;/* the font size of the text is 20px */
+    margin-top: 10px; /* the margins on the top of the button is 10px */
+    margin-bottom: 10px; /* the margins on the bottom of the button is 10px */
+    display: inline-block;/* the display is inline block */
+    color: white;/* the colour of the text is white */
+    padding-top:10px;  /* the padding on the top is 10px */
+    padding-bottom:10px;  /* the padding on the bottom is 10px */
+}
+span:hover {
+    background-color: #c0876e;  /* when hovering ontop of the button the colour becomes lighter */
+    color: aliceblue; /* the text stays the same colour */
+}
+a{
+    color: aliceblue; /* the colour of the text within the button is aliceblue(off-white) */
+    margin-top: 20px; /* the margins on the top of the  */
+    text-decoration: none;  /* this ensures the button text isnt underlined */
+}
+div{
+    background-color: #8C2F39; /* the background colour of the button is red */
+    border-radius: 10px; /* the borders are mildly rounded */
+    width: 600px;  /* the width of the button is 150px */
+    margin-left: 300px;  /* the margins on the left of the button is 1000px */
+    text-align: center;  /* the text alignment is in the centre */
+    font-size: 20px; /* the font size of the text is 20px */
+    margin-top: 5px; /* the margins on the top of the button is 5px */
+    margin-bottom: 10px; /* the margins on the bottom of the button is 10px */
+    display: inline-block; /* the display is inline block */
+    color: white; /* the colour of the text is white */
+    padding-top:10px;  /* the padding on the top is 10px */
+    padding-bottom:10px;  /* the padding on the bottom is 10px */
+    align-items: left; /* the text alignment of the button is left */
+}
+div:hover {
+    background-color: #c0876e;  /* when hovering ontop of the button the colour becomes lighter */
+    color: aliceblue; /* the text stays the same colour */
+}
+p{
+    font-family: 'Times New Roman', Times, serif; /* the font family of the text will be times new roman */
+    margin-left: 6%; /* the margins of the text content will be 20% */
+    width: 1000px;  /* the width of the text is 450px */
+    display: inline-block; /* the display of the text will be beside and inline with the image */
+    background-color:#F59CA9; /* the background colour of the text will be red */
+    color: black;  /* the colour of the text will be white */
+    padding: 20px;  /* the text will have the padding of 15% around it */
+    font-size: 18px; /* the font sixe will be 18px in my page */
+    border-radius: 20px; /* the sides of the text box will be rounded */
+    margin-top: -20px;
+}

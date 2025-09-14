@@ -1,0 +1,49 @@
+body {
+  text-align: center; /* the text alignment of the body is center */
+  font-size: 20px; /* the font size is 20 px */
+  margin: 70px; /* the margins aroung the entire body is 70px*/
+}
+
+img {
+  width: 330px; /*the width of the images are 330px*/
+  border-radius: 150px; /* all images have rounded edges */
+  vertical-align: middle; /*the vertical alignment of the image is centre*/
+  margin-top: 20px; /* the margin on the top of the image is 20px */
+  margin-bottom: 20px; /* the margin on the bottom of the image is 20px */
+}
+h1{
+  font-family: 'Times New Roman', Times, serif; /*the font family of the heading is times new roman*/
+  font-size: 30px;/* the font size of the heading is 20 px */
+  background-color: aliceblue;/* background colour around the heading only */
+}
+p{
+  width: 540px;  /* the width of the text is 540px */
+  display: inline-block;/* the display of the text will be beside and inline with the image */
+  vertical-align: middle; /* the vertical alignment of the text will be in the midde*/
+  padding: 100px;/* the text will have the padding of 100px around it */
+}
+div{
+    background-color: #8C2F39; /* the background colour of the button is red */
+    border-radius: 2cm; /* the borders are rounded */
+    width: 25px;  /* the width of the button is 150px */
+    margin-left: 1000px;  /* the margins on the left of the button is 1000px */
+    text-align: center;  /* the text alignment is in the centre */
+    font-size: 20px; /* the font size of the text is 20px */
+    margin-top: 5px; /* the margins on the top of the button is 5px */
+    margin-bottom: 10px; /* the margins on the bottom of the button is 10px */
+    display: inline-block; /* the display is inline block */
+    color: white; /* the colour of the text is white */
+    padding-top:10px;  /* the padding on the top is 10px */
+    padding-bottom:10px;  /* the padding on the bottom is 10px */
+    align-items: left; /* the alignment of the button is left */
+}
+div:hover {
+    background-color: #c0876e;  /* when hovering ontop of the button the colour becomes lighter */
+    color: aliceblue; /* the text stays the same colour */
+}
+a{
+  color: aliceblue; /* the colour of the text within the button is aliceblue(off-white) */
+  margin-top: 20px; /* the margins of the text within the button  */
+  text-decoration: none;  /* this ensures the button text isnt underlined */
+}
+
